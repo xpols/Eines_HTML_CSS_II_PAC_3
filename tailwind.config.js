@@ -20,8 +20,8 @@ module.exports = {
         'yellow': '#BDBD09'
       },
       fontFamily: {
-        'font-family-sans-serif': ['-apple-system']/*, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol']*/
-      }
+        'custom': ['cf_revolutionregular', 'sans-serif'],
+      },
     },
   },
   plugins: [],

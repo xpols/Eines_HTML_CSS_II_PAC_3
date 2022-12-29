@@ -2,14 +2,18 @@
  * Use this file to import partials.
  * Do not include SCSS code in this file.
  */
-
 /**
  * Import variables
  */
 @tailwind base;
 @tailwind components;
 @import "../fonts/CFRevolution/stylesheet.css";
-@import "variables";
+
+/*@layer base {
+    html {
+        font-family: cf_revolutionregular,sans-serif;
+    }
+}*/
 
 /**
  * Import npm dependencies

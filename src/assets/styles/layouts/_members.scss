@@ -10,12 +10,6 @@
   font-size: calc(1.5rem + 2vw);
 }
 
-
-
-.font-family-revolution {
-  font-family: cf_revolutionregular,sans-serif;
-}
-
 .border-2-solid-084298 {
   border: 2px solid #084298;
 }
@@ -70,4 +64,14 @@
   border-top: 1px solid #a8a8a880;
 }
 
+
+@layer components {
+  .card-member-name {
+    @apply text-corporate text-center  mt-4 mb-0 text-xl font-custom;
+  }
+
+  .card-member-img {
+    @apply ml-auto mr-auto border-2-solid-084298 border-radius-5;
+  }
+}
   
