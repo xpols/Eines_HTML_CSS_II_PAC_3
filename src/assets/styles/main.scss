@@ -8,6 +8,7 @@
  */
 @tailwind base;
 @tailwind components;
+@import "../fonts/CFRevolution/stylesheet.css";
 @import "variables";
 
 /**
@@ -25,6 +26,9 @@
  */
 
 @import "layouts/home";
+@import "layouts/members";
+@import "layouts/bio";
+
 
 /**
  * Do NOT include anything else in this file!
